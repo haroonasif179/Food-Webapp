@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+/* Banner Work start */
+.banners{
+    display: flex;
+}
+.card1{
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    display: flex;
+    border-style: solid;
+    width: 100%;
+    background-color: #212832;
+}
+.card1 .bannerDetail{
+    line-height: 0.8;
+}
+.image{
+    padding: 1rem;
+}
+.image img{
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+    border: 3px solid #ffbc31;
+}
+.card1 button{
+    background-color: #ffbc31;
+    border: none;
+    font-size:0.8rem;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 1.5rem;
+}
+.space{
+    width:3rem;
+}
+.card1 span{
+    font-size: 1rem;
+    font-weight: lighter;
+}
+.bannerDetail p{
+    font-size: 1.5rem;
+}
+/* Banner work end */
+
+/* Our Menu Heading Start */
+
+.heading {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-weight:lighter;  
+}
+.menu{
+    text-align: center;
+    
+}
+.menu span{
+    padding: 0.5rem 1rem;
+    border-radius:2rem ;
+}
+.active{
+    background-color: #212832;
+    color: white;
+}
+
+/* style product box pro1*/
+
+.products{
+    /* border-style: solid; */
+    padding: 3rem;
+    
+    
+}
+.row{
+    display: flex;
+}
+.pro1{
+    
+    margin: 1rem;
+    background-color: #212832;
+    color: white;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+.pro1 img{
+    width: 100%;
+    height: 15rem;
+    border-radius: 0 0 0 3rem;
+}
+.pro1 .spec{
+    padding: 1rem;
+    line-height: 0.9;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+}
+.price button{
+    border: none;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background-color: #ffbc31;
+    color: white;
+}
